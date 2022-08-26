@@ -34,8 +34,6 @@ async function createWindow() {
     icon: join(ROOT_PATH.public, 'favicon.svg'),
     webPreferences: {
       preload,
-      nodeIntegration: true,
-      contextIsolation: false,
     },
   })
 
